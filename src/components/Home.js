@@ -1,1 +1,1 @@
-// Home component - Covering the Search Bar + Video Component 
+// Home component - Covering the Search Bar + Video list + Rendered video
