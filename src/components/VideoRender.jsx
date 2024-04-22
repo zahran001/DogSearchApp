@@ -12,7 +12,7 @@ const VideoRender = ({ video }) => {
     );
   }
 
-  const videoSrc = `https://www.youtube.com/embed/${video.id}`;
+  const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;
   return (
     <div>
       <div>

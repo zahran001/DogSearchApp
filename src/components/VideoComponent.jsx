@@ -7,7 +7,7 @@ import React from 'react';
 const VideoComponent = ({video, handleVideoSelect}) => { // Define a div with an onClick event handler that calls handleVideoSelect function with video object when clicked
     return (
     <div onClick={ () => handleVideoSelect(video)} > 
-        <img src={video.snippet.thumbnails.standard.url} alt="Thumbnail" />
+        <img src={video.snippet.thumbnails.medium.url} alt="Thumbnail" />
         <div>
             <div>{video.snippet.title}</div>
             <div>{video.snippet.description}</div>
