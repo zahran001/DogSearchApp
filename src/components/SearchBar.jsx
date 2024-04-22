@@ -33,7 +33,7 @@ const Searchbar = ({ handleFormSubmit }) => {
       <div>
         <form onSubmit={handleSubmit} >
           <div style={{ textAlign: 'center' }}>
-            <label htmlFor='search-bar'>Search a video</label>
+            <label htmlFor='search-bar'> Search a video </label>
             <input onChange={handleChange} name='search-bar' type='text' placeholder='Search' />
           </div>
         </form>

@@ -7,7 +7,7 @@ const VideoRender = ({ video }) => {
   if (!video) {
     return (
       <div>
-        Search any Dog related video
+        
       </div>
     );
   }

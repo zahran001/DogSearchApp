@@ -34,7 +34,7 @@ class Home extends React.Component {
 
     render() {
         return (
-            <div style={{marginTop: '5em'}}>
+            <div style={{marginTop: '1em'}}>
                 <SearchBar handleFormSubmit={this.handleSubmit}/>
                 <div>
                     <div>

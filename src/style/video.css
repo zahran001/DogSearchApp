@@ -1,0 +1,33 @@
+.video-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.video-item:hover {
+    background-color: #f0f0f0;
+}
+
+.video-item img {
+    width: 180px;
+    height: 100px;
+    margin-right: 15px;
+}
+
+.video-item .content {
+    flex: 1;
+}
+
+.video-item .content .title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.video-item .content .description {
+    font-size: 14px;
+    color: #666;
+}
