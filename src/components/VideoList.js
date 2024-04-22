@@ -9,7 +9,7 @@ const VideoList = ({videos, handleVideoSelect}) => {
         return <VideoComponent video={video} handleVideoSelect={handleVideoSelect} />
 
     });
-    
+    // map function returns a new array listVideos where each element is a VideoComponent generated based on the videos array.
     return (
         <div>{listVideos}</div>
     );
