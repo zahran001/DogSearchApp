@@ -5,6 +5,7 @@ import React from 'react';
 
 // functional component to render a single video item within the VideoList
 const VideoComponent = ({video, handleVideoSelect}) => { // Define a div with an onClick event handler that calls handleVideoSelect function with video object when clicked
+    return (
     <div onClick={ () => handleVideoSelect(video)} > 
         <img src={video.snippet.thumbnails.standard.url} alt="Thumbnail" />
         <div>
@@ -14,5 +15,6 @@ const VideoComponent = ({video, handleVideoSelect}) => { // Define a div with an
 
 
     </div>
+    );
 };
 export default VideoComponent;
