@@ -3,17 +3,20 @@
 import React, { useState } from 'react';
 import youtubePng from '../assets/youtube.png';
 
+
+// search bar needs to keep track of the user input
 const Searchbar = ({ handleFormSubmit }) => {
-  const [term, setTerm] = useState('');
+  const [term, setTerm] = useState(''); // useState hook
 
   const handleChange = (event) => {
     setTerm(event.target.value);
   };
 
+  // Function to handle form submission
   const handleSubmit = (event) => {
     event.preventDefault();
     if (term) {
-      handleFormSubmit(term);
+      handleFormSubmit(term); // Calling the handleFormSubmit function with the current search term
     }
   };
 
