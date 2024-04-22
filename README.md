@@ -10,3 +10,15 @@ Currently, two official plugins are available:
 =======
 # DogSearchApp
 >>>>>>> b3feb5291b9dc4325bd7a4031d250cda00db8507
+
+# React project with Youtube Data API
+
+
+## A React application to search and browse Dog related Youtube videos using the API
+
+
+This project allows a user to search for dog related videos and explore the videos in the app itself. Prime features of this appllication:
+* Create a Home component to 
+
+
+
