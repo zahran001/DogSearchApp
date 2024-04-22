@@ -21,7 +21,7 @@ const VideoRender = ({ video }) => {
       <div className="video-details">
         <h3>{video.snippet.title}</h3>
         <p>Description: {video.snippet.description}</p>
-        <p>Channel: {video.snippet.channelTitle}</p>
+        <p>Channel: {video.snippet.channelTitle}</p>          
       </div>
     </div>
   );
