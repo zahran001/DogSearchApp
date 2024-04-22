@@ -14,6 +14,5 @@ const VideoComponent = ({video, handleVideoSelect}) => { // Define a div with an
 
 
     </div>
-
 };
 export default VideoComponent;

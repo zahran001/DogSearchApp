@@ -5,10 +5,10 @@ import React from 'react';
 import SearchBar from './SearchBar'; 
 import youtube from '../api/youtube';
 import VideoList from './VideoList';
+import VideoRender from './VideoRender';
 
 // Defining a class-based component Home
 class Home extends React.Component {
-
     
 }
 
