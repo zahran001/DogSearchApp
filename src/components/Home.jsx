@@ -34,8 +34,18 @@ class Home extends React.Component {
 
     render() {
         return (
-            <div>
-
+            <div style={{marginTop: '5em'}}>
+                <SearchBar handleFormSubmit={this.handleSubmit}/>
+                <div>
+                    <div>
+                        <div>
+                            <VideoRender video={this.state.selectedVideo}/>
+                        </div>
+                        <div>
+                            <VideoList handleVideoSelect={this.handleVideoSelect} videos={this.state.videos} />
+                        </div>
+                    </div>
+                </div>
             </div>
         )
     }
