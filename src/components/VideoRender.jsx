@@ -1,6 +1,6 @@
 // Render the video when it is selected from the list of videos  
-import React from 'react'
-
+import React from 'react';
+import '../style/video.css';
 
 // functional component to display video details
 const VideoRender = ({ video }) => {
@@ -14,14 +14,14 @@ const VideoRender = ({ video }) => {
 
   const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;
   return (
-    <div>
-      <div>
+    <div className="video-render">
+      <div className="video-container">
         <iframe src={videoSrc} allow="fullscreen" />
       </div>
-      <div>
+      <div className="video-details">
         <h3>{video.snippet.title}</h3>
-        <p>{video.snippet.description}</p>
-        <p>{video.snippet.channelTitle}</p>
+        <p>Description: {video.snippet.description}</p>
+        <p>Channel: {video.snippet.channelTitle}</p>
       </div>
     </div>
   );

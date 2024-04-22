@@ -38,7 +38,7 @@ class Home extends React.Component {
                 <SearchBar handleFormSubmit={this.handleSubmit}/>
                 <div>
                     <div>
-                        <div>
+                        <div style={{marginTop: '1em'}}>
                             <VideoRender video={this.state.selectedVideo}/>
                         </div>
                         <div>

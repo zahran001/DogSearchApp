@@ -31,3 +31,33 @@
     font-size: 14px;
     color: #666;
 }
+
+
+/* VideoRender */
+.video-render {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .video-container {
+    margin-bottom: 5px;
+  }
+  
+  .video-container iframe {
+    width: 100%;
+    height: 200px;
+  }
+  
+  .video-details {
+    text-align: center;
+  }
+  
+  .video-details h3 {
+    margin-bottom: 5px;
+  }
+  
+  .video-details p {
+    margin-bottom: 5px;
+  }
+  
