@@ -6,7 +6,7 @@ import VideoComponent from './VideoComponent';
 rendering a VideoComponent for each video in the list */
 const VideoList = ({videos, handleVideoSelect}) => {
     const listVideos = videos.map((video) => {
-        return <VideoComponent video={video} handleVideoSelect={handleVideoSelect} />
+        return <VideoComponent key={video.id} video={video} handleVideoSelect={handleVideoSelect} />
 
     });
     // map function returns a new array listVideos where each element is a VideoComponent generated based on the videos array.
