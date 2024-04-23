@@ -11,7 +11,7 @@ This project enables users to search for dog related videos and browse them dire
 
 
 ## Watch the demo
-[![Watch the video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=BmmFer0n2rw)
+[![Watch the video](https://img.youtube.com/vi/BmmFer0n2rw/0.jpg)](https://www.youtube.com/watch?v=BmmFer0n2rw)
 
 ## How to run this React project 
 To run this React app created with Vite, start by cloning the repository from GitHub. Then, navigate to the project directory in your terminal. Once there, install the project dependencies using npm install. After the dependencies are installed, start the development server by running npm run dev. The general steps are:
