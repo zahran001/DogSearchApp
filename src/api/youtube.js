@@ -11,7 +11,7 @@ snippet
 
 */
 
-const API_KEY = 'AIzaSyDZIbkJ6_vQdmNk60bACpUzNY29jQQUtag';
+const API_KEY = 'YOUR_API_KEY_HERE';
 
 const youtubeAPI = axios.create({
     baseURL: 'https://www.googleapis.com/youtube/v3/', // Base URL for the YouTube Data API
